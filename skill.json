@@ -1,0 +1,12 @@
+{
+  "name": "genpark-agent-prompt-guard-injection-sanitizer-skill",
+  "version": "1.0.0",
+  "description": "Strict heuristic and regex-based prompt injection and untrusted input guard detecting jailbreak markers",
+  "mcp": {
+    "server": "mcp_server.py",
+    "tools": [
+      "sanitize_prompt",
+      "inspect_threats"
+    ]
+  }
+}
